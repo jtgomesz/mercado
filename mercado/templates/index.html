@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111c31">
+  <meta name="description" content="Painel local de gestão de mercado: produtos, estoque, vendas e finanças.">
+  <title>Mercado Pro · Gestão inteligente</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+  <div id="app" aria-live="off">
+    <div class="boot-screen"><div class="brand-mark">M<span>+</span></div><p>Preparando seu mercado...</p><div class="boot-track"><i></i></div></div>
+  </div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="modal" class="modal" aria-labelledby="modal-title"><div class="modal-shell"><div class="modal-head"><div><p class="eyebrow" id="modal-kicker">MERCADO PRO</p><h2 id="modal-title">Novo registro</h2></div><button class="icon-button" type="button" data-close-modal aria-label="Fechar janela">✕</button></div><div id="modal-content"></div></div></dialog>
+</body>
+</html>
